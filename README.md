@@ -52,6 +52,14 @@ You are building a basic **School Management System** to keep track of people in
 
 ---
 
+## 🎮 **Testing:**
+
+Write tests using either `unittest` or `pytest`, testing as many edge cases as possible.
+
+Let your tests be guided by the age old saying **`Never underestimate the stupidity of the end user`**
+
+---
+
 ## 🎮 **Optional Bonus:**
 
 Create a simple interface that lets the user:
