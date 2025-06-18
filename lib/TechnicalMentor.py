@@ -15,10 +15,4 @@ class TechnicalMentor (Person):
         super().display_info()
         print(f"Employee ID: {self.employee_id}\nMode of Teaching: {self.mode_of_teaching}\nCourses: {self.courses}")
 
-mode = TechnicalMentor("Mode", 73, "light", 328372, "Full-time")
-
-mode.display_info()
-
-mode.assign_course("Software Engineering")
-
-print(mode.courses)
+        

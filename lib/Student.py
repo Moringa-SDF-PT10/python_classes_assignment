@@ -14,3 +14,4 @@ class Student (Person):
         super().display_info()
         print(f"Student ID: {self.student_id}\nMode of Study: {self.mode_of_study}\nCourses: {[course for course in self.courses]}")
 
+
