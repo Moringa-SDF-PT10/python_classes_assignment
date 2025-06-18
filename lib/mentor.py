@@ -13,8 +13,8 @@ class Mentor(Person):
     
     def display_info(self):
         super().display_info()
-        print(f"Employee ID: {self.employee_id}")
+        print(f"Mentor ID: {self.employee_id}")
         print(f"Mode of Teaching: {self.mode_of_teaching}")
-        print("Courses teaching:")
+        print("Mentor teaching:")
         for course in self.courses:
             print(f"- {course}")
