@@ -13,8 +13,7 @@ class Student(Person):
             self.courses.append(course)
 
     def display_info(self):
-        print(f"Name: {self.name}")
-        print(f"Age: {self.age}")
+        super().display_info()
         print(f"student_id: {self.student_id}")
         print(f"courses: {self.courses}")
         print(f"mode_of_study: {self.mode_of_study}")
