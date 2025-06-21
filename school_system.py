@@ -9,5 +9,15 @@ class Person:
     def display_info(self):
         print(f"Name: {self.name}, Age: {self.age}")
 
+# joseph = Person("Joseph", 23, "male", "dark")
+# print(joseph)
+# print(joseph.name)
+# print(joseph.age)
+# print(joseph.gender)
+# print(joseph.complexion)
+# joseph.display_info()
+# print(type(joseph))
 
-joseph = Person(name="joseph", age= 29, gender= "male", complexion= "dark")
+
+# if __name__ == "__main__":
+#     joseph.display_info()
